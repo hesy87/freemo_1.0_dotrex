@@ -1,5 +1,6 @@
 import os
 from web.settings import *
+import django_heroku
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
@@ -24,4 +25,5 @@ STATICFILES_DIRS = [
     BASE_DIR / "statics",
 ]
 
+django_heroku.settings(locals())
 
