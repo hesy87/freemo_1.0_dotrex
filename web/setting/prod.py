@@ -24,3 +24,4 @@ STATICFILES_DIRS = [
     BASE_DIR / "statics",
 ]
 
+
