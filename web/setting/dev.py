@@ -20,10 +20,15 @@ DATABASES = {
     }
 }
 
+<<<<<<< HEAD
 
 STATIC_URL = '/static/'
 STATIC_ROOT = STATIC_ROOT = BASE_DIR / "static"
 
+=======
+STATIC_ROOT = BASE_DIR / 'static'
+MEDIA_ROOT = BASE_DIR / 'media'
+>>>>>>> parent of 461275f (stable)
 STATICFILES_DIRS = [
     BASE_DIR / "statics",
 ]
