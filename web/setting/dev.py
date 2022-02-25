@@ -21,11 +21,14 @@ DATABASES = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 STATIC_URL = '/static/'
 STATIC_ROOT = STATIC_ROOT = BASE_DIR / "static"
 
 =======
+=======
+>>>>>>> parent of 461275f (stable)
 STATIC_ROOT = BASE_DIR / 'static'
 MEDIA_ROOT = BASE_DIR / 'media'
 >>>>>>> parent of 461275f (stable)
